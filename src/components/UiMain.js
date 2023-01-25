@@ -236,38 +236,6 @@ const rows = [
 ];
 
 export const UiMain = (props) => {
-  // const [rows, setRows] = useState([
-  //   {
-  //     id: 1,
-  //     name: "connect.domains.google.com",
-  //     track: "Not installed",
-  //     status: true,
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "userlove.test.in",
-  //     track: "Already installed",
-  //     status: true,
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "tracking.user.com",
-  //     track: "Already installed",
-  //     status: true,
-  //   },
-  //   {
-  //     id: 4,
-  //     name: "design.creation.com",
-  //     track: "Not installed",
-  //     status: true,
-  //   },
-  //   {
-  //     id: 5,
-  //     name: "bussiness.tour.holiday.com",
-  //     track: "Not installed",
-  //     status: true,
-  //   },
-  // ]);
   const [open, setOpen] = useState(false);
 
   return (
